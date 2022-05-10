@@ -1,0 +1,14 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+body {
+  background: rgb(249, 217, 149);
+}
