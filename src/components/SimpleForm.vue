@@ -135,12 +135,11 @@ import BaseRadio from './BaseRadio';
 
 <style scoped>
   .form-container {
-    height: 750px;
     max-height: 700px;
     overflow: auto;
     border: 1px solid rgb(249, 229, 186);
     padding: 20px;
-    box-shadow: 2px 1px 1px 1px;
+    box-shadow: 2px 1px 5px 0.5px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -150,7 +149,7 @@ import BaseRadio from './BaseRadio';
   .form-container h1 {
     text-align: center;
     font-size: 50px;
-    font-weight: 400;
+    font-weight: 600;
   }
 
   .form-container form {
@@ -184,9 +183,15 @@ import BaseRadio from './BaseRadio';
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
-    background: rgb(249, 229, 186);
-    border: 1px solid rgb(249, 217, 149);
+    background: rgb(210, 204, 191);
+    border: 1px solid rgb(182, 182, 181);
     width: 100%;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  button:hover {
+    background: rgb(156, 150, 138);
   }
 
   span {

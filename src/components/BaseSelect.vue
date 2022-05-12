@@ -25,5 +25,8 @@
   select {
     height: 30px;
     font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
   }
 </style>

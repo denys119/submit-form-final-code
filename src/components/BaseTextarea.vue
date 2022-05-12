@@ -25,5 +25,8 @@
     resize: none;
     padding: 0 10px;
     font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
   }
 </style>
